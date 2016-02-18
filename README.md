@@ -1,5 +1,4 @@
-##Important!
-This project does not work in Python 3 (working on fixing it)
+###Important! - This project does not work in Python 3 (working on fixing it)
 
 A blog built using the python's [Flask](http://flask.pocoo.org/docs/0.10/) web framework.
 
