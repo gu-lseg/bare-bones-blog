@@ -10,6 +10,10 @@ def index():
     blog = create_blog_list(posts_list)
     return render_template('index.html', blog=blog)
 
+@app.route('/submission')
+def submit_blog_entry_page():
+    return render_template('submission.html')
+
 def create_blog_list(posts):
     x = []
     for post in posts:
